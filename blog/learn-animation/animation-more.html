@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .section {
+            background-image: url('../blog-8.jpg');
+            width: 1290px;
+            height: 700px;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-left: 30px;
+        }
+        
+        .div {
+            width: 560px;
+            height: 400px;
+            border: solid blue;
+            margin-top: 100px;
+            margin-left: 730px;
+        }
+        
+        .div1 {
+            border: solid red;
+            width: 350px;
+            height: 300px;
+            margin-top: 40px;
+            margin-left: 200px;
+            position: relative;
+            animation-name: trans;
+            animation-duration: 3s;
+            animation-delay: -0.5s;
+            animation-timing-function: ease;
+        }
+        
+        @keyframes trans {
+            0% {
+                margin-left: 99999px;
+                margin-top: 40px;
+            }
+            100% {
+                margin-left: 200px;
+                margin-top: 40px;
+            }
+        }
+        
+        .div2 {
+            border: solid white;
+            width: 347px;
+            height: 80px;
+            padding-left: 65px;
+            padding-top: 27px;
+        }
+        
+        .div3 {
+            padding: 10px;
+        }
+        
+        .section1 {
+            width: 400px;
+            height: 300px;
+            margin-left: 300px;
+            margin-top: 100px;
+        }
+        
+        .div4 {
+            margin-left: 120px;
+            background-color: rgb(125, 98, 230);
+            width: 150px;
+            height: 150px;
+            animation-name: rotate;
+            animation-iteration-count: infinite;
+            transform: rotate(0deg);
+            animation-duration: 4s;
+        }
+        
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+                background-color: rgb(125, 98, 230);
+            }
+            25% {
+                transform: rotate(95deg);
+                background-color: yellow;
+            }
+            50% {
+                transform: rotate(190deg);
+                background-color: white;
+            }
+            75% {
+                transform: rotate(270deg);
+                background-color: lightseagreen;
+            }
+            100% {
+                transform: rotate(360deg);
+                background-color: red;
+            }
+        }
+        
+        .div5 {
+            background-color: rgb(100, 100, 100);
+            width: 150px;
+            height: 150px;
+            transform: rotate(50deg);
+            animation-name: transform;
+            animation-iteration-count: infinite;
+            animation-duration: 4s;
+        }
+        
+        @keyframes transform {
+            0% {
+                transform: rotate(-50deg);
+                background-color: rgb(100, 100, 100);
+            }
+            25% {
+                transform: rotate(95deg);
+                background-color: lightcoral;
+            }
+            50% {
+                transform: rotate(-190deg);
+                background-color: black;
+            }
+            75% {
+                transform: rotate(270deg);
+                background-color: seagreen;
+            }
+            100% {
+                transform: rotate(-360deg);
+                background-color: lightblue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section">
+        <div class="div">
+            <div class="div1">
+                <div class="div2">
+                    <h3>An Article for an Animation</h3>
+                </div>
+                <div class="div3">
+                    <p>this is meant to be a long paraagraphe and i was meaning to make it this ling on purpose im just trying to make this into an animation and i wish it works out and al goes on well.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section1">
+        <div class="div4">
+            <div class="div5"></div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,905 @@
+                                                                            body {
+                                                                                margin: 0;
+                                                                                padding: 0;
+                                                                                max-width: 100%;
+                                                                                box-sizing: border-box;
+                                                                                text-size-adjust: 100%;
+                                                                                background-color: rgb(240, 240, 240);
+                                                                            }
+                                                                            
+                                                                            header,
+                                                                            .header-div,
+                                                                            .ford-div1,
+                                                                            .ford-2 {
+                                                                                width: 1359px;
+                                                                                height: 100px;
+                                                                                display: flex;
+                                                                                color: rgb(0, 9, 91);
+                                                                                text-decoration: none;
+                                                                            }
+                                                                            
+                                                                            .ford-2 ul {
+                                                                                margin-top: 0px;
+                                                                                display: inline;
+                                                                                width: 1359px;
+                                                                                height: 80px;
+                                                                                background-color: rgb(255, 255, 255);
+                                                                                display: flex;
+                                                                                flex-direction: row;
+                                                                                flex-shrink: 1;
+                                                                                flex-wrap: nowrap;
+                                                                                text-align: center;
+                                                                                justify-content: flex-start;
+                                                                                align-content: center;
+                                                                                align-items: center;
+                                                                            }
+                                                                            
+                                                                            .name {
+                                                                                display: inline;
+                                                                                width: 300px;
+                                                                                color: rgb(0, 9, 91);
+                                                                                text-decoration: none;
+                                                                                height: 58px;
+                                                                                font-size: 34px;
+                                                                                font-family: Georgia, 'Times New Roman', Times, serif;
+                                                                                font-weight: 500;
+                                                                            }
+                                                                            
+                                                                            .names {
+                                                                                display: inline-block;
+                                                                                width: 390px;
+                                                                                color: rgb(0, 9, 91);
+                                                                                position: absolute;
+                                                                                text-decoration: none;
+                                                                                height: 58px;
+                                                                                font-size: 34px;
+                                                                                font-family: Georgia, 'Times New Roman', Times, serif;
+                                                                                font-weight: 500;
+                                                                            }
+                                                                            
+                                                                            .name a {
+                                                                                text-decoration: none;
+                                                                                color: rgb(0, 9, 91);
+                                                                                height: 58px;
+                                                                                text-decoration: none;
+                                                                                font-size: 16px;
+                                                                                font-family: Georgia, 'Times New Roman', Times, serif;
+                                                                                font-weight: 500;
+                                                                                transition: 0.8s;
+                                                                            }
+                                                                            
+                                                                            .name a:hover {
+                                                                                border: solid 0.5px;
+                                                                                color: rgb(114, 234, 114);
+                                                                            }
+                                                                            
+                                                                            .section-forcars,
+                                                                            .div-1 {
+                                                                                width: 1205px;
+                                                                                margin: auto;
+                                                                                background-color: rgb(249, 249, 250);
+                                                                                font-size: 22px;
+                                                                                flex-wrap: wrap;
+                                                                                gap: 12px;
+                                                                                height: 500px;
+                                                                                line-height: 24px;
+                                                                                box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+                                                                                display: flex;
+                                                                            }
+                                                                            
+                                                                            .class-div21 {
+                                                                                width: 1340px;
+                                                                                height: auto;
+                                                                                display: flex;
+                                                                                flex-direction: column;
+                                                                                color: rgb(0, 9, 91);
+                                                                                text-transform: uppercase;
+                                                                                font-weight: 500;
+                                                                                font-size: 24px;
+                                                                                font-family: 'Times New Roman', Times, serif;
+                                                                            }
+                                                                            
+                                                                            .commeercial {
+                                                                                display: block;
+                                                                                letter-spacing: 1px;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                                font-size: 24px;
+                                                                                width: 1345px;
+                                                                                height: 80px;
+                                                                                text-align: center;
+                                                                            }
+                                                                            
+                                                                            .cars-commercial {
+                                                                                display: block;
+                                                                                border: solid green;
+                                                                                align-self: flex-start;
+                                                                                display: flex;
+                                                                                height: 210px;
+                                                                                flex-wrap: wrap;
+                                                                                flex-direction: column;
+                                                                                width: 210px;
+                                                                            }
+                                                                            
+                                                                            .background-image {
+                                                                                width: 1339px;
+                                                                                height: 700px;
+                                                                            }
+                                                                            
+                                                                            .div-bag {
+                                                                                background-image: url('cq5dam.web.1440.1440.jpeg');
+                                                                                width: 1345px;
+                                                                                height: 700px;
+                                                                                text-align: center;
+                                                                                font-size: 34px;
+                                                                                color: white;
+                                                                                padding: 40px;
+                                                                                padding-left: 0;
+                                                                                padding-right: 0;
+                                                                            }
+                                                                            
+                                                                            .content-div,
+                                                                            .content-div h4 {
+                                                                                color: rgb(255, 255, 255);
+                                                                                font-size: 32px;
+                                                                                font-weight: 500;
+                                                                                margin-bottom: 0;
+                                                                            }
+                                                                            
+                                                                            .content-div-para p {
+                                                                                font-size: 16px;
+                                                                                font-weight: 800;
+                                                                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                                                            }
+                                                                            
+                                                                            .img-image {
+                                                                                border: solid lightskyblue;
+                                                                                width: 200px;
+                                                                                height: 100px;
+                                                                                object-fit: scale-down;
+                                                                                object-position: 70% 30%;
+                                                                            }
+                                                                            
+                                                                            .cars-commercial {
+                                                                                display: block;
+                                                                                border: solid gold;
+                                                                                width: 205px;
+                                                                                height: 190px;
+                                                                            }
+                                                                            
+                                                                            .cars-commercial div h4 {
+                                                                                display: block;
+                                                                                margin: 0;
+                                                                                border: solid red;
+                                                                                height: 46px;
+                                                                                font-size: 12px;
+                                                                                text-align: center;
+                                                                                color: rgb(0, 9, 91);
+                                                                                font-family: sans-serif;
+                                                                                display: flex;
+                                                                                text-align: center;
+                                                                                align-items: center;
+                                                                                justify-content: center;
+                                                                                width: 199px;
+                                                                            }
+                                                                            
+                                                                            .cars-commercial div p {
+                                                                                display: block;
+                                                                                margin: 0;
+                                                                                border: solid red;
+                                                                                font-size: 13px;
+                                                                                height: 21px;
+                                                                                font-weight: 400;
+                                                                                text-align: center;
+                                                                                color: rgb(100, 100, 100);
+                                                                                font-family: Arial, Helvetica, sans-serif;
+                                                                                width: 199px;
+                                                                            }
+                                                                            
+                                                                            .first-content {
+                                                                                margin-top: 70px;
+                                                                            }
+                                                                            
+                                                                            .header-sec {
+                                                                                margin-left: 120px;
+                                                                                width: 400px;
+                                                                                text-align: left;
+                                                                                font-family: Georgia, 'Times New Roman', Times, serif
+                                                                            }
+                                                                            
+                                                                            .header-text-sec-1 {
+                                                                                color: rgb(37, 37, 37);
+                                                                                font-size: 33px;
+                                                                                font-family: Georgia, 'Times New Roman', Times, serif;
+                                                                            }
+                                                                            
+                                                                            .paragraphe-header-text-new {
+                                                                                color: rgb(31, 31, 31);
+                                                                                font-size: 22px;
+                                                                                font-family: Georgia, 'Times New Roman', Times, serif;
+                                                                                font-weight: 600;
+                                                                            }
+                                                                            
+                                                                            .image-source1 {
+                                                                                width: 343.328px;
+                                                                                height: 180px;
+                                                                                object-fit: cover;
+                                                                            }
+                                                                            
+                                                                            .grid-area1 {
+                                                                                display: grid;
+                                                                                grid-template-columns: 345.328px 345.328px 345.328px;
+                                                                                column-gap: 42px;
+                                                                                row-gap: 42px;
+                                                                                height: 1093.59px;
+                                                                                width: 1120px;
+                                                                                margin-left: 120px;
+                                                                            }
+                                                                            
+                                                                            .second-div-grid {
+                                                                                height: 510.797px;
+                                                                                background-color: rgb(241, 228, 228);
+                                                                                border-color: rgb(166, 11, 11);
+                                                                                width: 345.328px;
+                                                                                margin-left: 0px;
+                                                                                border-style: solid;
+                                                                                border-width: 1px;
+                                                                                text-align: left;
+                                                                                font-family: Georgia, 'Times New Roman', Times, serif
+                                                                            }
+                                                                            
+                                                                            .second-div-contents-1 {
+                                                                                height: 329.797px;
+                                                                                padding: 15px;
+                                                                                width: 269.328px;
+                                                                            }
+                                                                            
+                                                                            .second-div-image-news {
+                                                                                display: inline-block;
+                                                                                width: 343.328px;
+                                                                                font-family: Georgia, 'Times New Roman', Times, serif;
+                                                                                font-size: 24px;
+                                                                                font-weight: 600;
+                                                                                line-height: 30px;
+                                                                            }
+                                                                            
+                                                                            .image-source1:hover {
+                                                                                transform: scale(1, 05, 1.05);
+                                                                            }
+                                                                            
+                                                                            .para-content-div-2 {
+                                                                                display: inline;
+                                                                                cursor: pointer;
+                                                                                margin-top: 0px;
+                                                                                margin-bottom: 0px;
+                                                                                margin-left: 0px;
+                                                                                margin-right: 0px;
+                                                                                width: auto;
+                                                                                height: auto;
+                                                                                line-height: 30px;
+                                                                                font-family: 'Times New Roman', Times, serif;
+                                                                                font-size: 24px;
+                                                                                font-weight: 600;
+                                                                                line-height: 30px;
+                                                                                transition: 0.4s;
+                                                                            }
+                                                                            
+                                                                            .para-content-div-2:hover {
+                                                                                color: rgb(202, 97, 97);
+                                                                            }
+                                                                            
+                                                                            .paragraphe-lookout-2 {
+                                                                                margin-top: 10px;
+                                                                                margin-bottom: 0px;
+                                                                                margin-left: 0px;
+                                                                                margin-right: 0px;
+                                                                                width: 313.328px;
+                                                                                height: 102px;
+                                                                                font-family: 'amaranth', sans-serif;
+                                                                                font-size: 20px;
+                                                                                font-weight: 400;
+                                                                                line-height: 34px;
+                                                                                color: rgb(118, 118, 118);
+                                                                            }
+                                                                            
+                                                                            .read-more-now {
+                                                                                border: none;
+                                                                                background-color: rgb(141, 74, 74);
+                                                                                border-radius: 21px;
+                                                                                color: white;
+                                                                                display: inline-block;
+                                                                                font-size: 14px;
+                                                                                font-family: "noto sans", sans-serif;
+                                                                                font-weight: 400;
+                                                                                height: 43.7969px;
+                                                                                line-height: 23.8px;
+                                                                                margin-top: 40px;
+                                                                                padding: 10px 20px 10px 20px;
+                                                                                width: 111.281px;
+                                                                                cursor: pointer;
+                                                                                transition-duration: 0.2s;
+                                                                            }
+                                                                            
+                                                                            .read-more-now:hover {
+                                                                                background-color: #cc1442;
+                                                                                color: black;
+                                                                            }
+                                                                            
+                                                                            .read-more-class {
+                                                                                transition-duration: 0.6s;
+                                                                            }
+                                                                            
+                                                                            .read-more-class:hover {
+                                                                                background-color: #cc1442;
+                                                                                color: white;
+                                                                            }
+                                                                            
+                                                                            .section-class-divs {
+                                                                                background-image: linear-gradient(rgba(5, 5, 5, 0.75), rgba(5, 5, 5, 0.75)), url('./esaay.webp');
+                                                                                background-attachment: fixed;
+                                                                                background-position-x: 50%;
+                                                                                background-position-y: 50%;
+                                                                                background-repeat: -x;
+                                                                                background-repeat: -y;
+                                                                                background-size: cover;
+                                                                                box-sizing: border-box;
+                                                                                color: rgb(64, 64, 64);
+                                                                                display: block;
+                                                                                flex-basis: auto;
+                                                                                flex-direction: row;
+                                                                                flex-grow: 0;
+                                                                                flex-shrink: 1;
+                                                                                flex-wrap: nowrap;
+                                                                                height: 735px;
+                                                                                padding-bottom: 170px;
+                                                                                padding-top: 170px;
+                                                                                position: relative;
+                                                                                row-gap: normal;
+                                                                                width: 1349px;
+                                                                                margin-top: 42px;
+                                                                            }
+                                                                            
+                                                                            .this-content-holder {
+                                                                                display: flex;
+                                                                                position: relative;
+                                                                                height: 394px;
+                                                                                width: 1140;
+                                                                                margin-right: 104.500px;
+                                                                                margin-left: 104.500px;
+                                                                            }
+                                                                            
+                                                                            .texg-source-div {
+                                                                                align-items: flex-start;
+                                                                                display: flex;
+                                                                                flex-direction: row;
+                                                                                flex: 1;
+                                                                                width: 1140px;
+                                                                                height: 395px;
+                                                                                position: relative;
+                                                                                padding-left: 570px;
+                                                                            }
+                                                                            
+                                                                            @keyframes fade-from-right {
+                                                                                0% {
+                                                                                    opacity: 0;
+                                                                                    transform: translate(100%);
+                                                                                }
+                                                                                100% {
+                                                                                    opacity: 1;
+                                                                                    transform: none;
+                                                                                }
+                                                                            }
+                                                                            
+                                                                            .header-text-holder-div {
+                                                                                margin-bottom: 20px;
+                                                                                animation-name: fade-from-right;
+                                                                                animation-duration: 2s;
+                                                                                animation-delay: 1s;
+                                                                                animation-timing-function: ease, ease, ease, ease;
+                                                                                animation-fill-mode: both;
+                                                                            }
+                                                                            
+                                                                            .header-for-section {
+                                                                                color: white;
+                                                                                margin-bottom: 20px;
+                                                                                padding: 0px;
+                                                                                border: none;
+                                                                                font-family: 'Montserrat Alternates', sans-serif;
+                                                                                font-size: 20px;
+                                                                                font-weight: 700;
+                                                                                height: 60px;
+                                                                                width: 570px;
+                                                                            }
+                                                                            
+                                                                            .solid-divider-container {
+                                                                                display: flex;
+                                                                                flex: 1;
+                                                                                height: 3px;
+                                                                                width: 570px;
+                                                                            }
+                                                                            
+                                                                            .solid-divider {
+                                                                                border-bottom-style: solid;
+                                                                                border-bottom-color: rgb(251, 32, 86);
+                                                                                border-bottom-width: 3px;
+                                                                                display: flex;
+                                                                                direction: 1tr;
+                                                                                height: 3px;
+                                                                                width: 57px;
+                                                                            }
+                                                                            
+                                                                            .content-para-new-container {
+                                                                                align-content: normal;
+                                                                                align-items: normal;
+                                                                                align-self: auto;
+                                                                                animation-duration: 2s;
+                                                                                animation-name: fadeInRight;
+                                                                                box-sizing: border-box;
+                                                                                color: rgb(255, 255, 255);
+                                                                                column-gap: normal;
+                                                                                display: block;
+                                                                                flex-basis: auto;
+                                                                                flex-direction: row;
+                                                                                flex-grow: 0;
+                                                                                flex-shrink: 1;
+                                                                                flex-wrap: nowrap;
+                                                                                font-family: 'Times New Roman', Times, serif;
+                                                                                font-size: 20px;
+                                                                                font-style: talic;
+                                                                                font-weight: 100;
+                                                                                height: 204px;
+                                                                                hyphens: manual;
+                                                                                justify-content: normal;
+                                                                                letter-spacing: normal;
+                                                                                line-height: 28px;
+                                                                                margin-bottom: 20px;
+                                                                                order: 0;
+                                                                                overflow-wrap: break-word;
+                                                                                position: relative;
+                                                                                row-gap: normal;
+                                                                                text-align: left;
+                                                                                text-size-adjust: 100%;
+                                                                                width: 570px;
+                                                                            }
+                                                                            
+                                                                            .div-para-container-for-text {
+                                                                                color: white;
+                                                                                display: block;
+                                                                                font-family: 'Times New Roman', Times, serif;
+                                                                                height: 172px;
+                                                                                width: 570px;
+                                                                                font-size: 20px;
+                                                                                line-height: 28px;
+                                                                                transition-delay: 0s, 0s, 0s, 0s, 0s;
+                                                                                transition-duration: 0.3s, 0.3s, 0.3s, 0.3s, 0.3s;
+                                                                            }
+                                                                            
+                                                                            .main-paragrahe-box {
+                                                                                border-style: solid;
+                                                                                border-color: lightblue;
+                                                                                margin-top: 32px;
+                                                                                border: none;
+                                                                                font-size: 20px;
+                                                                                font-family: 'Times New Roman', Times, serif;
+                                                                                font-weight: 100px;
+                                                                                font-style: italic;
+                                                                                margin-bottom: 32px;
+                                                                                height: 112px;
+                                                                                line-height: 28px;
+                                                                                text-align: left;
+                                                                            }
+                                                                            
+                                                                            .button-class-container {
+                                                                                height: 68px;
+                                                                                width: 570px;
+                                                                            }
+                                                                            
+                                                                            .button-class-second-container {
+                                                                                height: 48px;
+                                                                                width: 570px;
+                                                                                margin-top: 20px;
+                                                                                color: black;
+                                                                            }
+                                                                            
+                                                                            .button-class-sector-main {
+                                                                                height: 48px;
+                                                                                width: 570px;
+                                                                            }
+                                                                            
+                                                                            .span-container {
+                                                                                color: rgb(9, 5, 5);
+                                                                                cursor: pointer;
+                                                                                display: flex;
+                                                                                fill: rgb(9, 5, 5);
+                                                                                font-family: "Noto Sans", sans-serif;
+                                                                                font-size: 14px;
+                                                                                font-weight: 600;
+                                                                                height: 14px;
+                                                                                justify-content: center;
+                                                                                line-height: 14px;
+                                                                                overflow-wrap: break-word;
+                                                                                text-align: center;
+                                                                                text-decoration-color: rgb(9, 5, 5);
+                                                                                text-decoration-line: none;
+                                                                                text-decoration-style: solid;
+                                                                                text-decoration-thickness: auto;
+                                                                                text-size-adjust: 100%;
+                                                                                text-transform: uppercase;
+                                                                                width: 112.359px;
+                                                                            }
+                                                                            
+                                                                            .learn-more {
+                                                                                color: rgb(9, 5, 5);
+                                                                                display: block;
+                                                                                fill: rgb(9, 5, 5);
+                                                                                transition: o.3s;
+                                                                            }
+                                                                            
+                                                                            .learn-more:hover {
+                                                                                color: white;
+                                                                            }
+                                                                            
+                                                                            .button-class-div {
+                                                                                background-color: rgb(27, 194, 220);
+                                                                                border: none;
+                                                                                border-color: none;
+                                                                                border-radius: 30px;
+                                                                                width: 192.359px;
+                                                                                height: 48px;
+                                                                                padding-left: 40px;
+                                                                                padding-right: 40px;
+                                                                                padding-bottom: 17px;
+                                                                                padding-top: 17px;
+                                                                                color: black;
+                                                                                font-size: 14px;
+                                                                                font-weight: 600px;
+                                                                                font-family: Arial, Helvetica, sans-serif;
+                                                                                display: inline-block;
+                                                                                text-align: center;
+                                                                                text-transform: uppercase;
+                                                                            }
+                                                                            
+                                                                            .button-class-div:hover {
+                                                                                background-color: rgb(207, 46, 46);
+                                                                                border: none;
+                                                                                border-color: none;
+                                                                                border-radius: 30px;
+                                                                                width: 192.359px;
+                                                                                height: 48px;
+                                                                                padding-left: 40px;
+                                                                                padding-right: 40px;
+                                                                                padding-bottom: 17px;
+                                                                                padding-top: 17px;
+                                                                                color: white;
+                                                                                font-size: 14px;
+                                                                                font-weight: 600px;
+                                                                                font-family: Arial, Helvetica, sans-serif;
+                                                                                display: inline-block;
+                                                                                text-align: center;
+                                                                                text-transform: uppercase;
+                                                                                transition: 0.5s;
+                                                                            }
+                                                                            
+                                                                            .arrow-one:hover {
+                                                                                color: white;
+                                                                            }
+                                                                            
+                                                                            .arrow-one {
+                                                                                width: 12.25px;
+                                                                                color: black;
+                                                                                height: 14px;
+                                                                            }
+                                                                            
+                                                                            .link {
+                                                                                list-style-type: none;
+                                                                            }
+                                                                            
+                                                                            .section-another {
+                                                                                height: 369.016pxpx;
+                                                                                width: 1349px;
+                                                                            }
+                                                                            
+                                                                            .section-another-2 {
+                                                                                height: 367.016px;
+                                                                                width: 1140px;
+                                                                                margin-right: 104.500px;
+                                                                                margin-left: 104.500px;
+                                                                                display: flex;
+                                                                            }
+                                                                            
+                                                                            .section-another-3 {
+                                                                                height: 367.016px;
+                                                                                width: 1140px;
+                                                                                margin-right: 104.500px;
+                                                                                margin-left: 104.500px;
+                                                                                display: flex;
+                                                                                margin-right: 0px;
+                                                                                margin-left: 0px;
+                                                                            }
+                                                                            
+                                                                            .section-another-4 {
+                                                                                height: 367.016px;
+                                                                                width: 1140px;
+                                                                                margin-right: 104.500px;
+                                                                                margin-left: 104.500px;
+                                                                                display: flex;
+                                                                                flex-direction: column;
+                                                                                align-content: flex-start;
+                                                                                margin-right: 0px;
+                                                                                margin-left: 0px;
+                                                                                padding: 10px;
+                                                                            }
+                                                                            
+                                                                            .related-articles {
+                                                                                color: rgb(64, 64, 64);
+                                                                                column-gap: normal;
+                                                                                display: block;
+                                                                                flex-direction: row;
+                                                                                flex-grow: 0;
+                                                                                flex-shrink: 1;
+                                                                                flex-wrap: nowrap;
+                                                                                font-family: "Noto Sans", sans-serif;
+                                                                                font-size: 16px;
+                                                                                font-weight: 400;
+                                                                                height: 15px;
+                                                                                line-height: 27.2px;
+                                                                                margin-bottom: 20px;
+                                                                                order: 0;
+                                                                                overflow-wrap: break-word;
+                                                                                position: relative;
+                                                                                width: 1120px;
+                                                                            }
+                                                                            
+                                                                            .main-articles-container {
+                                                                                align-content: normal;
+                                                                                align-items: normal;
+                                                                                align-self: auto;
+                                                                                box-sizing: border-box;
+                                                                                color: rgb(64, 64, 64);
+                                                                                column-gap: normal;
+                                                                                display: block;
+                                                                                flex-basis: auto;
+                                                                                flex-direction: row;
+                                                                                flex-grow: 0;
+                                                                                flex-shrink: 1;
+                                                                                flex-wrap: nowrap;
+                                                                                font-family: "Noto Sans", sans-serif;
+                                                                                font-size: 16px;
+                                                                                font-style: normal;
+                                                                                font-weight: 400;
+                                                                                height: 15px;
+                                                                                hyphens: manual;
+                                                                                justify-content: normal;
+                                                                                line-height: 27.2px;
+                                                                                margin-bottom: 20px;
+                                                                                order: 0;
+                                                                                overflow-wrap: break-word;
+                                                                                position: relative;
+                                                                                row-gap: normal;
+                                                                                text-size-adjust: 100%;
+                                                                                width: 1120px;
+                                                                            }
+                                                                            
+                                                                            .style-this {
+                                                                                color: rgb(230, 8, 8);
+                                                                                font-size: 23px;
+                                                                                font-family: Arial, Helvetica, sans-serif;
+                                                                                fill: rgb(230, 8, 8);
+                                                                                height: 15px;
+                                                                                font-weight: 700px;
+                                                                                margin: 0px;
+                                                                                padding: 0px;
+                                                                            }
+                                                                            
+                                                                            .divider-section {
+                                                                                margin-top: 20px;
+                                                                                height: 3px;
+                                                                                width: 1120px;
+                                                                                margin-bottom: 20px;
+                                                                            }
+                                                                            
+                                                                            .divider-section2 {
+                                                                                height: 3px;
+                                                                                width: 1120px;
+                                                                                display: flex;
+                                                                            }
+                                                                            
+                                                                            .main-divider-section {
+                                                                                border-bottom-width: 3px;
+                                                                                border-bottom-style: solid;
+                                                                                border-bottom-color: rgb(251, 32, 86);
+                                                                                direction: 1tr;
+                                                                                display: flex;
+                                                                                height: 3px;
+                                                                                width: 112px;
+                                                                            }
+                                                                            
+                                                                            .next-image {
+                                                                                width: 297px;
+                                                                                display: grid;
+                                                                                grid-template-rows: 234.594px 54.4219px;
+                                                                                height: 289.016px;
+                                                                            }
+                                                                            
+                                                                            .section-poart {
+                                                                                height: 289.016px;
+                                                                                width: 1120px;
+                                                                            }
+                                                                            
+                                                                            .grid-div-new {
+                                                                                display: grid;
+                                                                                grid-template-columns: 293px 293px;
+                                                                                margin-left: 259px;
+                                                                                margin-right: 259px;
+                                                                                width: 626px;
+                                                                                column-gap: 35px;
+                                                                                height: 289.016px;
+                                                                            }
+                                                                            
+                                                                            .header-two2 {
+                                                                                height: 30px;
+                                                                                width: 293px;
+                                                                                margin-bottom: 20px;
+                                                                                margin-top: 20px;
+                                                                            }
+                                                                            
+                                                                            .header-to-be-styled {
+                                                                                color: rgb(25, 25, 25);
+                                                                                font-size: 15px;
+                                                                                font-family: "Abhaya Libre", sans-serif;
+                                                                                font-weight: 700;
+                                                                                line-height: 15px;
+                                                                            }
+                                                                            /*button side*/
+                                                                            
+                                                                            .holder-button,
+                                                                            .class-holder {
+                                                                                height: 34px;
+                                                                                line-height: 27px;
+                                                                                text-align: left;
+                                                                                width: 294px;
+                                                                            }
+                                                                            
+                                                                            .read-more-class {
+                                                                                background-color: rgb(27, 194, 220);
+                                                                                border: none;
+                                                                                border-radius: 30px;
+                                                                                color: rgb(9, 5, 5);
+                                                                                fill: rgb(9, 5, 5);
+                                                                                cursor: pointer;
+                                                                                display: inline-block;
+                                                                                width: 75.625px;
+                                                                                font-size: 9px;
+                                                                                height: 34px;
+                                                                                padding: 10px 6x 10px 6px;
+                                                                                font-family: 'Times New Roman', Times, serif;
+                                                                            }
+                                                                            
+                                                                            .r-kelly {
+                                                                                width: 293px;
+                                                                            }
+                                                                            /*from bootstrap*/
+                                                                            /*footer*/
+                                                                            
+                                                                            .col_white_amrc {
+                                                                                color: #FFF;
+                                                                            }
+                                                                            
+                                                                            footer {
+                                                                                width: 100%;
+                                                                                background-color: #263238;
+                                                                                min-height: 250px;
+                                                                                padding: 10px 0px 25px 0px;
+                                                                            }
+                                                                            
+                                                                            .pt2 {
+                                                                                padding-top: 40px;
+                                                                                margin-bottom: 20px;
+                                                                            }
+                                                                            
+                                                                            footer p {
+                                                                                font-size: 13px;
+                                                                                color: #CCC;
+                                                                                padding-bottom: 0px;
+                                                                                margin-bottom: 8px;
+                                                                            }
+                                                                            
+                                                                            .mb10 {
+                                                                                padding-bottom: 15px;
+                                                                            }
+                                                                            
+                                                                            .footer_ul_amrc {
+                                                                                margin: 0px;
+                                                                                list-style-type: none;
+                                                                                font-size: 14px;
+                                                                                padding: 0px 0px 10px 0px;
+                                                                            }
+                                                                            
+                                                                            .footer_ul_amrc li {
+                                                                                padding: 0px 0px 5px 0px;
+                                                                            }
+                                                                            
+                                                                            .footer_ul_amrc li a {
+                                                                                color: #CCC;
+                                                                            }
+                                                                            
+                                                                            .footer_ul_amrc li a:hover {
+                                                                                color: #fff;
+                                                                                text-decoration: none;
+                                                                            }
+                                                                            
+                                                                            .fleft {
+                                                                                float: left;
+                                                                            }
+                                                                            
+                                                                            .padding-right {
+                                                                                padding-right: 10px;
+                                                                            }
+                                                                            
+                                                                            .footer_ul2_amrc {
+                                                                                margin: 0px;
+                                                                                list-style-type: none;
+                                                                                padding: 0px;
+                                                                            }
+                                                                            
+                                                                            .footer_ul2_amrc li p {
+                                                                                display: table;
+                                                                            }
+                                                                            
+                                                                            .footer_ul2_amrc li a:hover {
+                                                                                text-decoration: none;
+                                                                            }
+                                                                            
+                                                                            .footer_ul2_amrc li i {
+                                                                                margin-top: 5px;
+                                                                            }
+                                                                            
+                                                                            .bottom_border {
+                                                                                border-bottom: 1px solid #323f45;
+                                                                                padding-bottom: 20px;
+                                                                            }
+                                                                            
+                                                                            .foote_bottom_ul_amrc {
+                                                                                list-style-type: none;
+                                                                                padding: 0px;
+                                                                                display: table;
+                                                                                margin-top: 10px;
+                                                                                margin-right: auto;
+                                                                                margin-bottom: 10px;
+                                                                                margin-left: auto;
+                                                                            }
+                                                                            
+                                                                            .foote_bottom_ul_amrc li {
+                                                                                display: inline;
+                                                                            }
+                                                                            
+                                                                            .foote_bottom_ul_amrc li a {
+                                                                                color: #999;
+                                                                                margin: 0 12px;
+                                                                            }
+                                                                            
+                                                                            .social_footer_ul {
+                                                                                display: table;
+                                                                                margin: 15px auto 0 auto;
+                                                                                list-style-type: none;
+                                                                            }
+                                                                            
+                                                                            .social_footer_ul li {
+                                                                                padding-left: 20px;
+                                                                                padding-top: 10px;
+                                                                                float: left;
+                                                                            }
+                                                                            
+                                                                            .social_footer_ul li a {
+                                                                                color: #CCC;
+                                                                                border: 1px solid #CCC;
+                                                                                padding: 8px;
+                                                                                border-radius: 50%;
+                                                                            }
+                                                                            
+                                                                            .social_footer_ul li i {
+                                                                                width: 20px;
+                                                                                height: 20px;
+                                                                                text-align: center;
+                                                                            }
+                                                                            /* Credit to https://bootsnipp.com/snippets/bxDBA */
