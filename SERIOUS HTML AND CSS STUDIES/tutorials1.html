@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tutorials</title>
+
+    <style>
+        .a {
+            border: none;
+            border-radius: 4px;
+            border-width: 1px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 8px;
+            padding-right: 8px;
+            box-shadow: 4px 3px 3px rgb(216, 207, 207);
+            cursor: pointer;
+        }
+        
+        .b {
+            border: none;
+            border-radius: 4px;
+            border-width: 1px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 8px;
+            padding-right: 8px;
+            box-shadow: 4px 3px 3px rgb(216, 207, 207);
+            cursor: pointer;
+        }
+        
+        .c {
+            width: 358px;
+            border: none;
+            border-radius: 4px;
+            border-width: 1px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 8px;
+            padding-right: 8px;
+            box-shadow: 4px 3px 3px rgb(216, 207, 207);
+            cursor: pointer;
+            display: block;
+        }
+        
+        .d {
+            background-color: rgb(138, 138, 240);
+            color: white;
+            border: none;
+            font-weight: bold;
+            font-family: arial;
+            border-radius: 6px;
+            border-width: 1px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 100px;
+            padding-right: 100px;
+            box-shadow: 4px 3px 3px rgb(216, 207, 207);
+            cursor: pointer;
+        }
+        
+        .color {
+            width: 300px;
+            background-color: rgb(92, 87, 87);
+            color: rgb(185, 174, 174);
+            padding-bottom: 5px;
+            font-family: arial;
+            font-size: 13px;
+            padding-top: 5px;
+            padding-left: 5px;
+            padding-left: 5px;
+        }
+        
+        .text {
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body style="padding-bottom:1000px;
+background-color:rgb(250, 246, 246);
+padding-top: 60px">
+
+
+    <input class="a" type="text" placeholder="First name">
+    <input class="b" type="text" placeholder="Last name">
+    <input class="c" type="text" placeholder="Emial">
+    <button class="d">
+        Sign Up
+    </button>
+    <div class="color">
+        <p>
+            <span class="text"> Install YouTube Music
+
+            </span>
+        </p>
+        <p>
+            YouTube Music to your dexktop for quick and easy access
+        </p>
+    </div>
+
+
+
+
+    <!-----------new ones---------->
+    <!-------css grid------->
+
+    <div style="
+        margin-top:30px;
+        display:grid;
+        grid-template-columns: 100px 100px
+        200px;">
+
+        <div style="background-color:rgb(138, 138, 240);">
+            div1
+        </div>
+        <div style="background-color: lightpink;">
+            div2
+            <p>text </p>
+        </div>
+    </div>
+
+
+    <div style="
+        margin-top:30px;
+        display:grid;
+        grid-template-columns: 100px 100px
+        200px;">
+        <div style="background-color:rgb(138, 138, 240);">
+            div1
+        </div>
+        <div style="background-color: lightpink;">
+            div2
+            <p>text</p>
+        </div>
+        <div style="background-color: rgb(211, 9, 39);">
+            div3
+        </div>
+
+    </div>
+    <div style="
+            margin-top:30px;
+            display:grid;
+            grid-template-columns: 100px 1fr; 
+            ">
+
+        <div style="background-color:rgb(138, 138, 240);">
+            div1
+        </div>
+        <div style="background-color: lightpink;">
+            1fr
+        </div>
+    </div>
+
+    <div style="
+            margin-top:30px;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr; 
+            column-gap:20px;
+            row-gap:40px
+            ">
+
+        <div style="background-color:rgb(138, 138, 240);
+        height:200px
+
+        ">
+            1fr
+        </div>
+        <div style="background-color: lightpink;
+        height:200px;
+        ">
+            1fr
+        </div>
+        <div style="background-color:rgb(138, 138, 240);
+        height:200px;
+        ">
+            1fr
+        </div>
+        <div style="background-color: lightpink;
+        height:200px;
+        ">
+            1fr
+        </div>
+        <div style="background-color:rgb(138, 138, 240);
+        height:200px;
+        ">
+            1fr
+        </div>
+        <div style="background-color: lightpink;
+        height:200px;
+        ">
+            1fr
+        </div>
+    </div>
+
+    <!-----this is for flexbox------->
+    <div style="
+    display:flex;
+    flex-direction:row;
+    margin-bottom:20px;
+    ">
+
+        <div style="background-color:lightblue">
+            div1 text
+        </div>
+        <div style="background-color: lightpink;">
+            div2
+            <p>text</p>
+        </div>
+
+    </div>
+
+    <div style="
+        display:flex;
+        flex-direction:row;
+        
+        ">
+
+        <div style="background-color:lightblue;
+            width:100px
+            ">
+            100px
+        </div>
+        <div style="background-color: lightpink;
+            flex:1
+            ">
+            flex
+
+        </div>
+
+    </div>
+
+    <div style="
+        display:flex;
+        flex-direction:row;
+        margin-top: 30px;
+        ">
+
+        <div style="background-color:lightblue;
+            width:100px
+            ">
+            100px
+        </div>
+        <div style="background-color: lightpink;
+            flex:1
+            ">
+            flex
+
+        </div>
+
+        <div style="background-color:lightblue;
+        flex:2;
+        ">
+            flex2
+        </div>
+
+    </div>
+
+    <div style="background-color:lightblue">
+        div1 text
+    </div>
+    <div style="background-color: lightpink;">
+        div2
+        <p>text</p>
+    </div>
+
+    </div>
+
+    <div style="
+    display:flex;
+    flex-direction:row;
+    
+    ">
+
+        <div style="background-color:lightblue;
+        width:100px
+        ">
+            100px
+        </div>
+        <div style="background-color: lightpink;
+        flex:1
+        ">
+            flex
+
+        </div>
+
+    </div>
+
+    <div style="
+        display:flex;
+        flex-direction:row;
+        margin-top: 30px;
+        height:60px;
+        border-width: 1px;
+        border-style: solid;
+        border-color:gray;
+        justify-content: center;
+        ">
+
+        <div style="background-color:lightblue;
+        width:100px
+        ">
+            100px
+        </div>
+        <div style="background-color: lightpink;
+        width: 100px;
+        ">
+            100px</div>
+
+        <div style="background-color:lightblue;
+    width: 100px;
+    ">
+            100px
+        </div>
+
+    </div>
+
+
+    <div style="
+        display:flex;
+        flex-direction:row;
+        margin-top: 30px;
+        height:60px;
+        border-width: 1px;
+        border-style: solid;
+        border-color:gray;
+        justify-content: space-between;
+        ">
+
+        <div style="background-color:lightblue;
+        width:100px
+        ">
+            100px
+        </div>
+        <div style="background-color: lightpink;
+        width: 100px;
+        ">
+            100px</div>
+
+        <div style="background-color:lightblue;
+    width: 100px;
+    ">
+            100px
+        </div>
+
+    </div>
+
+
+    <div style="
+        display:flex;
+        flex-direction:row;
+        margin-top: 30px;
+        height:60px;
+        border-width: 1px;
+        border-style: solid;
+        border-color:gray;
+        justify-content: space-between;
+        align-items: stretch;
+        ">
+
+        <div style="background-color:lightblue;
+        width:100px
+        ">
+            100px
+        </div>
+        <div style="background-color: lightpink;
+        width: 100px;
+        ">
+            100px</div>
+
+        <div style="background-color:lightblue;
+    width: 100px;
+    ">
+            100px
+        </div>
+
+    </div>
+
+    <!------position.html----->
+    <h1>this is for position practice</h1>
+    <div style="background-color:black;
+    color:white;
+    position:fixed">
+        header#</div>
+
+    <div style="background-color: lightblue;
+    height:200px;
+    width:200px;
+    ">div1
+    </div>
+    <div style="
+    background-color:lightpink;
+    height:200px;
+    width:200px;
+  
+    ">
+        div2
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

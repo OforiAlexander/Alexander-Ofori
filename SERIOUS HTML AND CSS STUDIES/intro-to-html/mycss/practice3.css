@@ -1,0 +1,31 @@
+.numbers {
+    color: black;
+    font-size: 27px;
+    font-family: arial;
+}
+
+.second {
+    color: rgb(128, 122, 122);
+    font-size: 13px;
+    margin-left: 5px;
+    font-family: arial;
+}
+
+.font {
+    color: rgb(130, 151, 98);
+    margin-top: -25px;
+    font-size: 13px;
+    font-family: arial;
+}
+
+.last {
+    color: rgb(128, 122, 122);
+    font-size: 13px;
+    font-family: arial;
+}
+
+.new {
+    color: red;
+    font-size: 13px;
+    font-family: arial;
+}

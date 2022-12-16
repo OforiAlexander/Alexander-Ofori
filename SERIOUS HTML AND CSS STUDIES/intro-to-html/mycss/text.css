@@ -1,0 +1,53 @@
+p {
+    font-family: roboto;
+}
+
+.first-line {
+    font-size: 18px;
+    color: #212529;
+    font-weight: bold;
+    font-family: roboto;
+    margin: 0px 0px 2px;
+    text-align: left;
+    width: 285px;
+    line-height: 24px;
+}
+
+.number-views {
+    color: #606060;
+    font-size: 14px;
+    width: 284;
+    margin: 0px 0px 16px;
+    line-height: 21px;
+}
+
+.name {
+    color: #606060;
+    font-size: 14px;
+    width: 284;
+    margin: 0 0 16px;
+    line-height: 21px;
+}
+
+.another {
+    color: #606060;
+    font-size: 14px;
+    margin: 0 0 16px;
+    width: 285px;
+    line-height: 20px;
+}
+
+.button {
+    margin-top: 100px;
+    background-color: rgb(228, 65, 64);
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.shop-now:hover {
+    text-decoration: underline rgb(255, 255, 255);
+}
