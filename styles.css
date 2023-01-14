@@ -198,8 +198,11 @@ i:hover {
 }
 
 .color.hanburger-btn,
-.color.close-btn,
-.color#change {
+.color.close-btn {
+    color: #fff;
+}
+
+.active ul a li {
     color: #fff;
 }
 
